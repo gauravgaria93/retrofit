@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         topText = (TextView) findViewById(R.id.topTextView);
-        topText.setText("");
+        topText.setText("hello");
 
         // Step 1 : create Retrofit object
         Retrofit retrofit = new Retrofit.Builder()
